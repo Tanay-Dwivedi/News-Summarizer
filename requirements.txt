@@ -1,0 +1,7 @@
+streamlit
+matplotlib
+plotly
+spacy
+textblob
+wordcloud
+newspaper3k
