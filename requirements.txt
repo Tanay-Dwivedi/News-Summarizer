@@ -5,3 +5,4 @@ spacy
 textblob
 wordcloud
 newspaper3k
+en-core-web-sm
