@@ -10,6 +10,11 @@ nlp = spacy.load("en_core_web_sm")
 sl.title("News Express")
 sl.write("##")
 
+sl.set_page_config(
+    page_title="News Express",
+    page_icon="⛳"
+)
+
 
 def extract_entities(text):
     doc = nlp(text)
