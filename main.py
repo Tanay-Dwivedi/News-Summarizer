@@ -17,7 +17,7 @@ def extract_entities(text):
     return entities
 
 
-with sl.form("News Details"):
+with sl.form("News Details", clear_on_submit=True):
     inp_url = sl.text_input("Enter the News URL")
     submit_btn = sl.form_submit_button("Search details")
 
